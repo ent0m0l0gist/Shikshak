@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_Profile"
+
+            android:title="@string/navigation_drawer_item_profile" />
+
+        <item
+            android:id="@+id/nav_addSubject"
+
+            android:title="@string/navigation_drawer_item_add_subjects" />
+
+        <item
+            android:id="@+id/nav_removeSubject"
+
+            android:title="@string/navigation_drawer_item_delete_subjects" />
+
+        <item
+            android:id="@+id/nav_editProfile"
+
+            android:title="Edit Profile"
+            />
+
+        <item
+            android:id="@+id/nav_logOut"
+
+            android:title="@string/navigation_drawer_item_logout" />
+
+
+    </group>
+
+</menu>

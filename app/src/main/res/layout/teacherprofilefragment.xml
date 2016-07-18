@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="53dp"
+        android:textSize="17sp"
+        android:id="@+id/namaste_label"
+        android:textAlignment="center"
+        android:text="Namaste" />
+
+    <TextView
+        android:layout_below="@id/namaste_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="TeacherName"
+        android:textAlignment="center"
+        android:id="@+id/nameTextview"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentEnd="false" />
+</RelativeLayout>
